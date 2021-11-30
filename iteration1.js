@@ -12,11 +12,12 @@ const products = [
 
 function FindWord(param) {
 
-for (let i = 0; i < param.length; i++ ) {
+for (let i = 0; i < param.length; i++) {
     if (param[i].includes("Camiseta")) {
         console.log(param[i])
     }
 }
+
 }
 
 FindWord(products)
